@@ -83,23 +83,3 @@ document.addEventListener('DOMContentLoaded', () => {
       };
   }
 });
-
-/*function verifyWin(){
-  if (
-    square1.classList.contains('player-one') &&
-    square2.classList.contains('player-one') &&
-    square3.classList.contains('player-one') &&
-    square4.classList.contains('player-one')
-  ) {
-    result.innerHTML = 'Player One Wins!'
-  }
-  if (
-    square1.classList.contains('player-two') &&
-    square2.classList.contains('player-two') &&
-    square3.classList.contains('player-two') &&
-    square4.classList.contains('player-two')
-  ) {
-    result.innerHTML = 'Player Two Wins!'
-  };
-}
-verifyWin();*/
