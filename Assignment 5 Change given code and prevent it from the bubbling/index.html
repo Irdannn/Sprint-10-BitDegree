@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style></style>
+	<title>Sprint 10, Assignment 5.5</title>
+	<style>
+		.grand-parent {
+			 border: solid black 4px; 
+			 background-color : white;
+			 width: 400px; 
+			 margin: 10px; 
+			 font-size: 110%; 
+			 text-align: center; 
+			 padding: 30px;
+		}
+		.parent {
+			 border: solid black 4px;
+			 background-color : green; 
+			 width: 300px; 
+			 margin: 10px; 
+			 font-size: 110%; 
+			 text-align: center; 
+			 padding: 30px;
+		}
+		 .child { 
+			 border: solid black 4px; 
+			 background-color : red; 
+			 width: 200px; 
+			 margin: 10px; 
+			 font-size: 110%; 
+			 text-align: center; 
+			 padding: 30px; 
+			 }
+		 .grand-child { 
+			 border: solid black 4px; 
+			 background-color : grey; 
+			 width: 100px; 
+			 margin: 10px; 
+			 font-size: 110%; 
+			 text-align: center;
+			 padding: 30px; 
+			 }
+			 .red {
+				 background-color: red;
+			 }
+	</style>
+</head>
+
+<body onclick="alert(`the bubbling has reached here`)">
+	<div class="grand-parent">
+		<p>grand-parent</p>
+		<div class="parent">
+			<p>parent</p>
+			<div class="child">
+				<p>child</p>
+				<div class="grand-child">grand-child 1</div>
+				<div class="grand-child">grand-child 2</div>
+				<div class="grand-child">grand-child 3</div>
+			</div>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+
+</html>
